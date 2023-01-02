@@ -18,8 +18,7 @@ function operation() {
       Math.sqrt(number2).toFixed(3)
     )}`;
   } else if (sign == '+') {
-    return `The result of your operation is: ${(result = parseFloat(
-      Number(number1 + number2).toFixed(3)
+    return `The result of your operation is: ${Number((result = parseFloat(Number(number1) + Number(number2)).toFixed(3)
     ))}`;
   } else if (sign == '-') {
     return `The result of your operation is: ${(result = parseFloat(
